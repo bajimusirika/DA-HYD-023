@@ -84,7 +84,7 @@ if age>18:
 else:
     age = 18-age
     #print("you dont have aligibility as your age is",age,"years")
-    print("you need to wait for more",age,"years")'''
+    print("you need to wait for more",age,"years")
 #same case let's use only nested --> if,else
 if age>0:
     if age>18:
@@ -96,7 +96,8 @@ if age>0:
         print("you need to wait for more",age,"years")
 else:
     print("you have entered -ve values/zero enter only +ve")
-'''
+    
+
 task:student marks and grade analyzer
 90-100-->'A'
 80-89-->'B'
@@ -104,4 +105,47 @@ task:student marks and grade analyzer
 60-69-->'D'
 >60-->fail
 #also -ve cases should not be allowed and marks should not be greater than 100
-    
+marks = int(input("enter the marks:"))
+if marks>0 and 100:
+    if marks >=90:
+        print("your grade is A")
+    else:
+        if marks >=80:
+            print("your grade is B")
+        else:
+            if marks >=70:
+                print("your grade is C")
+            else:
+                if marks >=60:
+                    print("your grade is D")
+                else:
+                    print("Fail")
+else:
+    print("-ve not allowed and marks should not be greater than 100")
+task:student marks and grade analyzer
+90-100-->'A'
+80-89-->'B'
+70-79-->'c'
+60-69-->'D'
+>60-->fail
+#also -ve cases should not be allowed and marks should not be greater than 100'''
+marks =int(input("Enter the marks(1-100):"))
+if marks >0 and marks <= 100:
+    if marks >= 90:
+        print("user has secured Grade A")
+    if marks >= 80 and marks <=89:
+        print("user has secured Grade B")
+    if marks >= 70 and marks <=79:
+        print("user has secured Grade C")
+    if marks >= 70 and marks <=79:
+        print("user has secured Grade C")
+    if marks >= 60 and marks <=69:
+        print("user has secured Grade C")
+    if marks < 60:
+        print("user has failed,study again")
+else:
+    print("Enter only +ve values greater than 0 and less than 100")
+        
+
+
+
