@@ -26,5 +26,13 @@ print("Special Characters:", special)
 email=input().split()
 for mail in email:
     print(mail.split("@")[1])'''
+series_name = input("Enter Netflix series name: ")
+episodes = int(input("Enter number of episodes watched: "))
+
+print("Series:", series_name)
+print("Episodes watched:")
+
+for i in range(1, episodes + 1):
+    print("Episode", i)
 
 
