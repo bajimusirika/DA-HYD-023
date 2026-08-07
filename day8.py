@@ -106,3 +106,5 @@ d=name.title()#converts every word first letter to uppercase
 print(d)
 #Task: A-Z
 #use loops and strings to return A-Z
+
+

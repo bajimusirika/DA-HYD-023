@@ -1,10 +1,7 @@
 #Task: A-Z
 #use loops and strings to return A-Z
 '''
-import string
-print('A-Z in alphabets')
-for i in string.ascii_uppercase:
-    print(i)
+
 def get_alphabet():
     result=""
     for i in range(26):

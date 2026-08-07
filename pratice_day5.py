@@ -1,29 +1,37 @@
 # grade checker
-"""marks =int(input("Enter the marks(1-100):"))
+'''
+marks =int(input("Enter marks:"))
 #if marks >0 and marks <= 100:
 if marks >= 90 and marks<=100:
-    print("user has secured Grade A")
+    
+    print("Grade:A")
     print("Remark:Outstanding!")
 elif marks >= 80 and marks <=89:
-    print("user has secured Grade B")
+    
+    print("Grade:B")
     print("Remark:Excellent!")
 elif marks >= 70 and marks <=79:
-    print("user has secured Grade C")
+    
+    print("Grade:C")
     print("Remark:Good!")
 elif marks >= 60 and marks <=69:
-    print("user has secured Grade D")
+    
+    print("Grade:D")
     print("Remark:Fair!")
 elif marks >= 50 and marks <=59:
-    print("user has secured Grade E")
+   
+    print("Grade:E")
     print("Remark:Poor!")
 elif marks < 50:
-    print("user has failed Grade F")
+   
+    print("Grade:F")
     print("Remark:Failed!")
 else:
-    print("Invalid marks entered")"""
+    print("Invalid marks entered")
+    
 # even number
 
-"""n=int(input())
+n=int(input("Enter a number:"))
 if n==0:
     print("Zero neither even nor odd")
 elif n<0:
@@ -35,17 +43,18 @@ elif n>0:
     if n%2==0:
         print("even number")
 else:
-    print("odd number")"""
+    print("odd number")
+    '''
 # months
-m=int(input())
+m=int(input("Enter a month number:"))
 if m==12 or m==1 or m==2:
-    print("Winter")
+    print("season:Winter")
 elif m==3 or m==4 or m==5:
-    print("spring")
+    print("season:spring")
 elif m==6 or m==7 or m==8:
-    print("summer")
+    print("season:summer")
 elif m==9 or m==10 or m==11:
-    print("autumn")
+    print("season:autumn")
 else:
     print("Invalid month entered")
     
