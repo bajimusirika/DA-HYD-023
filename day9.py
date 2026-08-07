@@ -26,5 +26,10 @@ print("Special Characters:", special)
 email=input().split()
 for mail in email:
     print(mail.split("@")[1])'''
+movies=input().split()
+i=1
+for movie in movies:
+    print(i,movie)
+    i+=1
 
 
